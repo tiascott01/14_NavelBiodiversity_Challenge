@@ -1,7 +1,7 @@
 # 14_NavelBiodiversity_Challenge
 
-## View my web dahsboard here: https://tiascott01.github.io/14_NavelBiodiversity_Challenge/
----
+#### View my web dahsboard here: https://tiascott01.github.io/14_NavelBiodiversity_Challenge/
+
 ## Overview
 
 This repository contains a two correlating files ('NoSQL_Setup.ipynb' and 'NoSQL_analysis.ipynb') for analyzing and summarizing data imported from a json. The directions for the module were to import the JSON into the MongoDB command line and run a series of analyses on the corresponding data in the notebooks. A "Resources" folder contains the original .json file, while the .import.png shows the import into the MondoDB command line.
