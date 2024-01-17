@@ -16,7 +16,7 @@ In the 14_NavelBiodiversity_Challenge, the setup is to read-in a sample.json fil
    
 3. Create the Metadata Panel
 
-4. Create and Customize the Bar, Guage, and Bubble Plot with the Plotly Manual Handling Commands: set scaling, text, font, colors, and labeling
+4. Create and Customize the Bar, Guage, and Bubble Plot with the Plotly Manual Handling Commands
 
 5. Plot the Plotly Charts
 
