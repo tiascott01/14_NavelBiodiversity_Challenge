@@ -45,20 +45,8 @@ You can use this file to setup the data in the corresponding notebook.
     <img src="https://github.com/tiascott01/14_NavelBiodiversity_Challenge/blob/main/Resources/screenshot.png" width="750">
     </p>
    
-
-5. Cells requiring the dependencies such as pymongo and pprint must be imported prior to use.
-   
-6. Run individual cells within the ('NoSQL_Setup.ipynb') to see the calculations, insertions, breakdowns, and type changes.
-
-</br>
-
-You can use this file to analyze the data in the corresponding notebook.
-
-1. Open the respective file (`NoSQL_analysis.ipynb') in Jupyter Notebook or VSCode. A second import of the database is not required. 
-   
-2. Cells requiring the dependencies such as pymongo, pprint, and pandas must be imported prior to use.
-
-2. Run individual cells within the (`NoSQL_analysis.ipynb') to see the calculations, dataframes, and analyses associated with this file.
+<br>
+<b>***As of 1/17/24 I was able to correctly plot the "Washing Frequency" guage however I have not finished the setup for final functionality.***</b>
 
 
 
@@ -66,4 +54,6 @@ You can use this file to analyze the data in the corresponding notebook.
 
 1. General - ChatGpt.com
 
-2. Analysis part 3 - Davin Frankosky
+2. Gauge Creation - https://codepen.io/ascotto/pen/eGNaqe?editors=0010
+
+3. Gauge Help - AskBCs (Which did not net a final result)
