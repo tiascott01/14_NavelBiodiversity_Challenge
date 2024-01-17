@@ -4,11 +4,30 @@
 
 ## Overview
 
-This repository contains a two correlating files ('NoSQL_Setup.ipynb' and 'NoSQL_analysis.ipynb') for analyzing and summarizing data imported from a json. The directions for the module were to import the JSON into the MongoDB command line and run a series of analyses on the corresponding data in the notebooks. A "Resources" folder contains the original .json file, while the .import.png shows the import into the MondoDB command line.
+This repository contains a several files and folders for launching and running a custom dashboard. The main files ('index.html' and 'styles.css', as well as app.js (inside the static/js folder)) are for the running, styling and data handling of the website and activating the functions of the dashboard. Additional files and folders are in the repository as well, ('images') which contain images used in the creation of the website, such as a custom dropdown arrow and a favicon to display in the tab of the website.
 
 ## Results
 
-In the 12_NoSQL_Challenge, the setup notebook imports the json into a database called "uk_food" into a collection called "establishments." The notebook inserts one new restaurant documment into the existing database. Further setup of the document includes more setup of the database, including correctly formatting for the data types for the queries (i.e. changing "$type" that are strings to "&toDouble"s). In the analysis file, several questions have been asked which can be answered with queries of the data. Other questions have been asked which also have specific parameters to query against. In all cases the data has been converted into a pandas dataframe for easier viewing. 
+In the 14_NavelBiodiversity_Challenge, the setup is to read-in a sample.json file from a hosted source and create dropdowns, metatdata reading, and several different Plotly plots which updated once you chose a new subject from the dropdown created. Since no methodology was read-into the original source files I came up with a brief organization of my 'app.js' to help streamline my creation and where I was needing functions and code to execute the dashboard. The organization is as follows:
+
+1. Read in the sample JSON Data.
+
+2. Fetch JSON Data
+   
+3. Create the Metadata Panel
+
+4. Create and Customize the Bar, Guage, and Bubble Plot with the Plotly Manual Handling Commands: set scaling, text, font, colors, and labeling
+
+5. Plot the Plotly Charts
+
+6. Update the Plots with the Dropdown Change
+
+7. Fetch Data and Initialize the Page
+
+8. Trigger the Fetch and Initialization
+
+
+Much time was spent customizing the entire site, from the custom dropdown fucntions and styling, to the custom colors and fonts used for the entire site and Plotly charts. Further setup of the dashboard includes more setup base 'index.html', which now includes custom CSS styling to enhance the dashboard look and feel. Most of all testing of the dashboard has concluded that the scaling and working of the site works on all main browsing platforms and functionality remains unchanged.
 
 
 
