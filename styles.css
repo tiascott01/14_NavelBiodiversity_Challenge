@@ -1,0 +1,175 @@
+    body {
+      background-color: white;
+      margin: 0;
+      font-family: 'Futura', 'Calibri', sans-serif;
+      font-weight: normal;
+      color: rgb(25, 25, 25);
+    }
+
+    .rounded-tile {
+      background-color: rgb(243, 243, 243);
+      border-radius: 20px;
+      padding: 30px;
+      margin: 30px;
+    }
+
+    .dashboard-title {
+      margin: 0;
+      text-align: left;
+      padding-top: 15px;
+      padding-bottom: 40px;
+      font-weight: bold;
+      letter-spacing: -.25px
+    }
+
+    .test-subject-box {
+    background-color: white;
+    padding: 15px 15px 5px 15px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+  }
+
+    .test-subject-box h5 {
+      margin: 0;
+      text-align: left;
+      font-size: 90%;
+      color: rgb(145, 145, 145);
+    }
+
+    .test-subject-box select {
+      width: 100%;
+      padding: 5px;
+      margin-top: 0px;
+      margin-bottom: 2px;
+      border: none;
+      appearance: none;
+      -webkit-appearance: none;
+      background: none;
+      background-image: url('images/arrow.png');
+      background-repeat: no-repeat;
+      background-position: right center;
+      background-size: 20px;
+      font-size: 100%;
+      color: rgb(25, 25, 25);
+    }
+    
+    .test-subject-box select:focus {
+      outline: none;
+    }
+
+    .test-subject-box select::-ms-expand {
+      display: none;
+    }
+
+    .test-subject-box select.placeholder {
+      color: rgb(145, 145, 145);
+      font-size: 90%;
+      font-style: italic;
+      font-weight: normal;
+    }
+
+    .panel {
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+
+    .panel-heading {
+      border-radius: 9px 9px 0 0;
+      margin-top: -1px;
+    }
+    
+    .panel-title {
+      font-weight: bold;
+      font-size: 100%;
+      letter-spacing: 0px
+    }
+
+    .panel-body {
+      border-radius: 0 0 10px 10px;
+      padding: 5px 0px 8px 20px;
+      font-size: 18px;
+      font-weight: bold;
+      color: rgb(145, 145, 145);
+    }
+
+    .rounded-plot-container-bar {
+      border-radius: 10px;
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+
+    #bar {
+      width: 100%;
+      height: 100%;
+    }
+
+    .plot-text-bar {
+      position: absolute;
+      top: 6%;
+      left: 6%;
+      color:rgb(145, 145, 145);
+      font-size: 16px;
+      font-weight: bold;
+      
+    }
+    .rounded-plot-container-gauge {
+      border-radius: 10px;
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+
+    #gauge {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    }
+
+    .plot-text-gauge {
+      position: absolute;
+      top: 6%;
+      left: 6%;
+      color: rgb(145, 145, 145);
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .rounded-plot-container-bubble {
+      border-radius: 10px;
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    #bubble {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    }
+
+    .plot-text-bubble {
+      position: absolute;
+      top: 6%;
+      left: 2.75%;
+      color: rgb(145, 145, 145);
+      font-size: 16px;
+      font-weight: bold;
+    }
+    
+    .custom-col {
+    width: 96.25%;
+    float: left;
+    margin-left: 2.5%;
+  }

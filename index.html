@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Navel Biodiversity Dashboard</title>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var select = document.getElementById('selDataset');
+
+    // Remove the placeholder text when the dropdown is focused
+    select.addEventListener('focus', function () {
+      var placeholderOption = this.querySelector('option[disabled]');
+      if (placeholderOption) {
+        placeholderOption.style.display = 'none';
+      }
+    });
+
+    // Add the placeholder text back if no option is selected when the dropdown loses focus
+    select.addEventListener('blur', function () {
+      var placeholderOption = this.querySelector('option[disabled]');
+      if (!this.value && placeholderOption) {
+        placeholderOption.style.display = 'block';
+      }
+    });
+  });
+</script>
+
+</head>
+
+<body>
+
+  <div class="rounded-tile">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="dashboard-title mb-1">
+            Navel Biodiversity Dashboard
+          <p style="font-size: 16.5px; color: rgb(125, 125, 125); font-weight: normal; font-style: italic; margin-top: 5px;">
+            An interactive dashboard for exploring insights into the fascinating world of navel biodiversity
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <div class="test-subject-box">
+            <h5 style="color: rgb(145, 145, 145);"><b>Test Subject ID No.</b></h5>
+            <select id="selDataset" class="placeholder" required>
+              <option value="" disabled selected hidden>Select a Test Subject</option>
+            </select>
+          </div>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">Demographic Info</h3>
+            </div>
+            <div id="sample-metadata" class="panel-body"></div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="rounded-plot-container-bar">
+            <div id="bar"></div>
+            <div class="plot-text-bar">Top 10 Operational Taxonomic Units (OTU'S) </div>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="rounded-plot-container-gauge">
+            <div id="gauge"></div>
+            <div class="plot-text-gauge">Washing Frequency Per Week </div>
+          </div>
+        </div>
+      <div class="row">
+        <div class="col-md-11 custom-col">
+          <div class="rounded-plot-container-bubble">
+            <div id="bubble"></div>
+            <div class="plot-text-bubble">Operational Taxonimic Unit Distribution (Per Subject)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="./static/js/app.js"></script>
+
+</body>
+
+</html>
