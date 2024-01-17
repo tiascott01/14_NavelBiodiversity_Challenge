@@ -27,7 +27,7 @@ In the 14_NavelBiodiversity_Challenge, the setup is to read-in a sample.json fil
 8. Trigger the Fetch and Initialization
 
 
-Much time was spent customizing the entire site, from the custom dropdown fucntions and styling, to the custom colors and fonts used for the entire site and Plotly charts. Further setup of the dashboard includes more setup base 'index.html', which now includes custom CSS styling to enhance the dashboard look and feel. Most of all testing of the dashboard has concluded that the scaling and working of the site works on all main browsing platforms and functionality remains unchanged.
+Much time was spent customizing the entire site, from the custom dropdown fucntions and styling, to the custom colors and fonts used for the entire site and Plotly charts. Further setup of the dashboard includes more setup of the provided base 'index.html', which now includes custom CSS styling to enhance the dashboard look and feel. Most of all testing of the dashboard has concluded that the scaling and working of the site works on all main browsing platforms and functionality remains unchanged.
 
 
 
@@ -36,13 +36,13 @@ Much time was spent customizing the entire site, from the custom dropdown fucnti
 
 You can use this file to setup the data in the corresponding notebook.
 
-1. Open a new command line or gitbash terminal from the resources folder or navigate to the folder through the terminal.
+1. Click through to the above link.
 
-2. Once you are in the resource folder you can execute the "mongoimport" command to bring the .json into the mongodb database.
+2. Once the site is loaded you can look at individial data from the <i>"Select A Test Subject"</i> drop down. 
    
-3. For this activity the import code is: **'mongoimport --type json -d uk_food -c establishments --drop --jsonArray establishments.json'**
+3. All data should update and repopulate with the selection change of a new "Test Subject."
     <p align="center">
-    <img src="https://github.com/tiascott01/12_NoSQL_Challenge/blob/main/import.png" width="750", hspace="15">
+    <img src="https://github.com/tiascott01/14_NavelBiodiversity_Challenge/blob/main/Resources/screenshot.png" width="750">
     </p>
    
 
