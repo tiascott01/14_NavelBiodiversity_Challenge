@@ -46,7 +46,7 @@ You can use this file to setup the data in the corresponding notebook.
     </p>
 
 
-
+** If The pointer gauge is not functioning correctly, clearing the cache will reset it to normal functionality. **
 
 ## Resources and Citations
 
