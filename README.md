@@ -54,6 +54,6 @@ You can use this file to setup the data in the corresponding notebook.
 
 1. General - ChatGpt.com
 
-2. Gauge Creation - https://codepen.io/ascotto/pen/eGNaqe?editors=0010
+2. Custom Gauge Creation - https://codepen.io/ascotto/pen/eGNaqe?editors=0010
 
-3. Gauge Help - AskBCs (Which did not net a final result)
+3. Gauge Pointer Help - Davin Frankosky
