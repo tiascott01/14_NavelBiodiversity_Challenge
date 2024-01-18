@@ -8,7 +8,7 @@ This repository contains a several files and folders for launching and running a
 
 ## Results
 
-In the 14_NavelBiodiversity_Challenge, the setup is to read-in a sample.json file from a hosted source and create dropdowns, metatdata reading, and several different Plotly plots which updated once you chose a new subject from the dropdown created. Since no methodology was read-into the original source files I came up with a brief organization of my 'app.js' to help streamline my creation and where I was needing functions and code to execute the dashboard. The organization is as follows:
+In the 14_NavelBiodiversity_Challenge, the setup is to read-in a sample.json file from a hosted source, that contains data about test subjects and the bacterial colonies in their navels. The purpose of the challenge was to create dropdowns, metatdata reading, and several different Plotly plots which updated once you chose a new subject from the dropdown created and read from the JSON file. Since no methodology was read-into the original source files I came up with a brief organization of my 'app.js' to help streamline my creation and where I was needing functions and code to execute the dashboard. The organization is as follows:
 
 1. Read in the sample JSON Data.
 
