@@ -44,9 +44,7 @@ You can use this file to setup the data in the corresponding notebook.
     <p align="center">
     <img src="https://github.com/tiascott01/14_NavelBiodiversity_Challenge/blob/main/Resources/screenshot.png" width="750">
     </p>
-   
-<br>
-<b>***As of 1/17/24 I was able to correctly plot the "Washing Frequency" guage however I have not finished the setup for final functionality.***</b>
+
 
 
 
